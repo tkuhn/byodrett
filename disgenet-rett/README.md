@@ -1,3 +1,6 @@
+DisGeNET nanopubs about Rett Syndrome
+=====================================
+
 Getting the subset of DisGeNET nanopubs that are about the Rett syndrome.
 
 Resulting nanopub index (1284 nanopubs):
