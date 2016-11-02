@@ -43,3 +43,8 @@ rm lists/cdkl5.pre.txt
 echo "Number of unique CDKL5 nanopubs:"
 cat lists/cdkl5.txt | wc -l
 
+
+# Rett Syndrome
+
+cat ../disgenet-rett/files/rett-nanopub-uris.txt | sort -u > lists/rett.txt
+
