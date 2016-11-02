@@ -1,0 +1,14 @@
+http://identifiers.org/mesh/D015518
+http://purl.bioontology.org/ontology/MSH/D015518
+http://identifiers.org/mesh/D015518
+http://bio2rdf.org/mesh:D015518
+http://info.identifiers.org/mesh/D015518
+http://bioportal.bioontology.org/ontologies/1351?p=terms&conceptid=D015518
+http://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI+MetaThesaurus&code=C0035372
+http://info.identifiers.org/ncim/C0035372
+http://purl.bioontology.org/ontology/NCIM/C0035372
+http://linkedlifedata.com/resource/umls/id/C0035372
+http://identifiers.org/ncim/C0035372
+http://www.conceptwiki.org/concept/57db9ebf-a66b-4808-8bc5-0806625f3cf8
+http://www.conceptwiki.org/web-ws/concept/get?uuid=57db9ebf-a66b-4808-8bc5-0806625f3cf8
+http://www.conceptwiki.org/concept/index/57db9ebf-a66b-4808-8bc5-0806625f3cf8
