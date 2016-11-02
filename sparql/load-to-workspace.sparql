@@ -1,0 +1,20 @@
+prefix np: <http://www.nanopub.org/nschema#>
+prefix npx: <http://purl.org/nanopub/x/>
+
+insert {
+
+  graph <http://example.org/nanopub-workspace> {
+    ?s ?p ?o .
+  }
+
+} where {
+
+  <[INDEX-URI]> (npx:appendsIndex|npx:includesSubindex)* ?x .
+  ?x npx:includesElement ?np .
+  ?np np:hasAssertion ?a .
+
+  graph ?a {
+    ?s ?p ?o .
+  }
+
+}
