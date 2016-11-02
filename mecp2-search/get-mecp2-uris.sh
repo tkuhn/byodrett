@@ -1,5 +1,4 @@
 mkdir -p lists
-rm lists/*.txt
 
 cat mecp2-uris.txt \
   | echo "$(perl -MURI::Escape -e 'foreach $l ( <STDIN> ) { print uri_escape($l) . "\n"; }' )" \
