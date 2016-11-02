@@ -1,6 +1,17 @@
-Get MECP2 lists:
+Overlap:
 
-    $ cat ../entity-search/lists/mecp2/http%3A%2F%2Fidentifiers.org%2Fncbigene%2F4204%0A.all.txt | sort > lists/mecp2-identifier.txt
-    $ cat ../entity-search/lists/mecp2/http%3A%2F%2Fwww.genenames.org%2Fcgi-bin%2Fgene_symbol_report%3Fhgnc_id%3D6990%0A.txt | sort > lists/mecp2-genenames.txt
-    $ cat ../entity-search/lists/mecp2/http%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fgene%2F4204%0A.txt | sort > lists/mecp2-ncbi.txt
+    $ ./check-overlap.sh lists/rett.txt lists/mecp2.txt 
+    first:   1642
+    second:  2566
+    overlap: 726
+
+    $ ./check-overlap.sh lists/rett.txt lists/cdkl5.txt 
+    first:   1642
+    second:  692
+    overlap: 110
+
+    $ ./check-overlap.sh lists/rett.txt lists/foxg1.txt 
+    first:   1642
+    second:  233
+    overlap: 38
 
